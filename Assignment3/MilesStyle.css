@@ -1,0 +1,51 @@
+/* This is my new stylesheet */
+/*
+p {
+ color: #ff0000;
+ background-color: #0000ff;
+}
+*/
+h1 {
+background-color: #23A376
+}
+
+ #specialid {
+ color: #00ff00;
+background-color: #000000;
+}
+
+
+a {
+ color: #C50000#;
+ text-decoration: none;
+}
+
+
+a:visited {
+ color: #0000ff;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #C5C500;
+ text-decoration: none;
+}
+
+
+
+
+#divexample {
+  color: #0000ff;
+  background-color: #00ffff
+}
+
+
+
+
+
+
+
+.specialp {
+ color: #00ff00;
+ background-color: #ffffff;
+}
