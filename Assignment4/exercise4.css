@@ -1,0 +1,67 @@
+body {
+background-color: #cccccc;
+background-image: url(books.jpg);
+background-repeat: repeat-y;
+background-position: top right;
+background-size: 200px;
+}
+
+main {
+background-color: #0000ff;
+}
+
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-style: italic;
+   color:  #a86932 ;
+  font-size: 24px;
+}
+
+h2 {
+  font-weight:normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: #a86932 ;
+  font-size: 24px;
+}
+
+h3 {
+font-family: Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-style: italic;
+  color: #a86932 ;
+  font-size: 24px;
+}
+
+h4 {
+font-family: Arial, Helvetica, sans-serif;
+  font-weight:normal;
+  font-style: italic;
+  color: #a86932;
+  font-size: 24px;
+}
+
+
+.textcenter{
+  text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+
+.customtext{
+  font-family: Arial, Helvetica, sans-serif;
+font-weight: normal;
+font-size: 15px;
+}
+
+.imgbox {
+border: 2px solid #000000;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+width: 400px;
+background-color: #ffffff;
+}
