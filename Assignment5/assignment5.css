@@ -1,0 +1,61 @@
+h1 {
+  text-align: center;
+  font-size: 100px;
+  font: Arial;
+  color: #0089de;
+}
+
+h3 {
+  text-align: right;
+
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial;
+  color: #ffffff;
+}
+
+.blockimg {
+  display: block;
+  image-orientation: bottom;
+}
+
+body {
+  font-size: 100%;
+  color: #0089de;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(Soul.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 200px;
+}
+
+.pwidth {
+  width: 100px;
+  color: #0089de;
+  text-align: justify;
+}
+
+.pxfont {
+  font-size: 16px;
+}
+
+nav li {
+  padding: 10px;
+  margin: 10px;
+  border-top: 10px;
+  width: 150px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+nav li a {
+  color: #0089de;
+  text-decoration: none;
+  display: block;
+  text-align: bottom center;
+}
+
+a:hover {
+  color: #cc9a12;
+}
