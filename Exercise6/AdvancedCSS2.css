@@ -1,0 +1,44 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 1px solid #ff0000;
+  background-color: #ffffff;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px auto 75px;
+}
+
+
+header {
+  grid-column: span 12;
+}
+
+nav {
+  grid-column: span 2;
+}
+
+main {
+  grid-column: span 10;
+}
+
+footer {
+  grid-column: span 12;
+}
+
+.p1, .p2 {}
+
+.floatimage {
+  width: 400px;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+.p2 {
+  clear: both;
+}
