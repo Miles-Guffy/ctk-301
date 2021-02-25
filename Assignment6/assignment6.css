@@ -1,0 +1,92 @@
+body {
+  background-color: #999999;
+  background-image: url(a62.png);
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 1em;
+  width: 960px;
+  border: 5px solid #000000;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 100px auto 75px;
+}
+
+.floatimage {
+  width: 400px;
+  float: left;
+  margin: 0 20px 20px 0;
+  padding: 5px;
+  border: 3px solid #000000
+}
+
+header {
+  grid-column: span 12;
+  font-family: helvetica;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+h2 {
+  font-family: helvetica;
+
+
+}
+
+nav {
+  grid-column: span 1;
+}
+
+main {
+  grid-column: span 9;
+}
+
+footer {
+  grid-column: span 12;
+  alin-text: centered;
+  background-color: #f01313;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #f01313;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px;
+  border: 1px solid #f01313;
+  margin: 10px;
+  width: 150px;
+  background-color: #f01313;
+}
+
+nav li a {
+  color: #ffffff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #730909;
+}
+
+main a {
+  color: #f01313;
+  text-decoration: none;
+}
+
+.p2 {
+  clear: both;
+}
+
+.p1 {
+  font-family: Georgia;
+  font-weight: bolder;
+}
