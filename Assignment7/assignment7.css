@@ -27,7 +27,7 @@ header {
 }
 
 nav {
-  grid-column: span 1;
+  grid-column: span 3;
 }
 
 main {
