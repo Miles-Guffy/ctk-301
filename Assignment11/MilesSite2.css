@@ -29,6 +29,9 @@ header {
 
 #mainimg {
   grid-column: span 8;
+  border-radius: 30px;
+  /* width: 250px;
+  height: 250px; */
 }
 
 nav {
@@ -85,13 +88,31 @@ main {
 
 section {
   grid-column: span 12;
+  border-radius: 30px;
 
 }
+
+/* section a{
+  border-radius: 30px;
+  width: 250px;
+  height: 250px; */
+
+
+}
+
+
  iframe{
      grid-column: span 12;
      border-radius: 30px;
 
  }
+
+
+
+
+
+
+
 /* .dropshadowbox {
   padding: 10px;
   margin: 20px;
@@ -100,6 +121,9 @@ section {
   background-color: #ccc;
   box-shadow: 10px 10px 10px #666; /* x, y, blur, color */
 }
+
+
+
 
 */ section h2 {
   font-family: 'Source Code Pro', monospace;
