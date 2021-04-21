@@ -28,7 +28,7 @@ header {
 }
 
 #mainimg {
-  grid-column: span 8;
+  grid-column: span 7;
   border-radius: 30px;
   /* width: 250px;
   height: 250px; */
