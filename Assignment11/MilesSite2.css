@@ -72,7 +72,7 @@ nav li a:hover {
 }
 
 main {
-  grid-column: span 4;
+  grid-column: span 6;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 12px;
